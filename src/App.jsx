@@ -838,11 +838,12 @@ const App = () => {
         </div>
 
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4 text-xs uppercase tracking-widest text-stone-600">
-          <p>&copy; 2024 Dra. Nathália Lima Souza.</p>
+          <p>&copy; 2025 Dra. Nathália Lima Souza.</p>
           <div className="flex items-center gap-2">
-            <span className="normal-case">Desenvolvido por</span>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-              <img src="/ex3softlab.png" alt="EX3 Softlab" className="h-5 md:h-6" style={{ mixBlendMode: 'multiply' }} />
+            <span className="normal-case text-stone-500">Desenvolvido por</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity flex items-center">
+              <span className="font-bold text-[#2DD4BF] text-sm">EX3</span>
+              <span className="font-bold text-stone-300 text-sm">SOFTLAB</span>
             </a>
           </div>
         </div>
