@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+    --font-serif-display: 'Cormorant Garamond', serif;
+    --font-body: 'Montserrat', sans-serif;
+
+    --animate-fade-in-up: fadeInUp 1s ease-out forwards;
+    --animate-pulse-soft: pulseSoft 2s infinite;
+
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes pulseSoft {
+        0% {
+            box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+        }
+
+        70% {
+            box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+        }
+
+        100% {
+            box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+        }
+    }
+}
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+/* Utilities */
+.font-serif-display {
+    font-family: var(--font-serif-display);
+    letter-spacing: -0.02em;
+    /* Tighter headlines = More Premium */
+}
+
+.font-body {
+    font-family: var(--font-body);
+    letter-spacing: 0.01em;
+}
+
+.bg-noise {
+    position: relative;
+}
+
+.bg-noise::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/noise.svg');
+    opacity: 0.4;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    z-index: 0;
+}
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: var(--animate-fade-in-up);
+}
+
+.pulse-soft {
+    animation: var(--animate-pulse-soft);
+}
