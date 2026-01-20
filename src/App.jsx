@@ -303,16 +303,6 @@ const App = () => {
                   />
                 </div>
                 <div className="group">
-                  <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2 group-focus-within:text-stone-900 transition-colors">Telefone (WhatsApp)</label>
-                  <input
-                    type="tel"
-                    value={scheduleData.phone || ''}
-                    onChange={(e) => setScheduleData({ ...scheduleData, phone: e.target.value })}
-                    className="w-full bg-transparent border-b border-stone-300 py-2 focus:outline-none focus:border-stone-900 transition-colors"
-                    placeholder="(XX) 99999-9999"
-                  />
-                </div>
-                <div className="group">
                   <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2 group-focus-within:text-stone-900 transition-colors">Tipo de Consulta</label>
                   <select
                     value={scheduleData.type || 'Presencial'}
@@ -852,7 +842,7 @@ const App = () => {
           <div className="flex items-center gap-2">
             <span className="normal-case">Desenvolvido por</span>
             <a href="#" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-              <img src="/ex3softlab.png" alt="EX3 Softlab" className="h-5 md:h-6" />
+              <img src="/ex3softlab.png" alt="EX3 Softlab" className="h-5 md:h-6" style={{ mixBlendMode: 'multiply' }} />
             </a>
           </div>
         </div>
