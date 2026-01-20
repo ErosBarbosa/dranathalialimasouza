@@ -189,42 +189,6 @@ const App = () => {
         </svg>
       </a>
 
-      {/* WhatsApp Popup Chatbot */}
-      {showWhatsAppPopup && (
-        <div className="fixed bottom-24 right-6 z-50 animate-in slide-in-from-bottom-4 fade-in duration-500">
-          <div className="bg-white rounded-2xl shadow-2xl shadow-stone-300/50 w-72 overflow-hidden border border-stone-100">
-            <div className="bg-[#25D366] p-4 flex items-center gap-3">
-              <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
-                <MessageCircle size={20} className="text-white" />
-              </div>
-              <div className="flex-1">
-                <p className="text-white font-semibold text-sm">Dra. Nathália</p>
-                <p className="text-white/80 text-xs">Online agora</p>
-              </div>
-              <button
-                onClick={() => setShowWhatsAppPopup(false)}
-                className="text-white/80 hover:text-white transition-colors"
-              >
-                <X size={18} />
-              </button>
-            </div>
-            <div className="p-4 bg-stone-50">
-              <div className="bg-white p-3 rounded-lg rounded-tl-none shadow-sm mb-3">
-                <p className="text-stone-700 text-sm">Olá! 👋 Posso ajudar a encontrar o melhor horário para sua consulta?</p>
-              </div>
-              <a
-                href="https://wa.me/5569993807039?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full bg-[#25D366] text-white text-center py-3 rounded-lg text-sm font-semibold hover:bg-[#20ba5a] transition-colors"
-              >
-                Iniciar conversa
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Navbar */}
       <nav
         className={`fixed w-full z-40 transition-all duration-500 border-b border-transparent ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm border-stone-100 py-3' : 'bg-transparent py-6'
@@ -691,7 +655,7 @@ const App = () => {
             {[
               {
                 q: "Você atende por convênios?",
-                a: "Atualmente, o atendimento é particular para garantir o tempo e a qualidade que você merece. No entanto, fornecemos nota fiscal para solicitação de reembolso junto ao seu plano de saúde."
+                a: "Atualmente, o atendimento é exclusivamente particular para garantir o tempo e a qualidade que você merece em cada consulta."
               },
               {
                 q: "Como funciona a Telemedicina?",
@@ -885,9 +849,11 @@ const App = () => {
 
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4 text-xs uppercase tracking-widest text-stone-600">
           <p>&copy; 2024 Dra. Nathália Lima Souza.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Privacidade</a>
-            <a href="#" className="hover:text-white transition-colors">Termos</a>
+          <div className="flex items-center gap-2">
+            <span className="normal-case">Desenvolvido por</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+              <img src="/ex3softlab.png" alt="EX3 Softlab" className="h-5 md:h-6" />
+            </a>
           </div>
         </div>
       </footer>
