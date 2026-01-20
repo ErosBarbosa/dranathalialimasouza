@@ -71,7 +71,7 @@ const App = () => {
 
   const handleContactSubmit = () => {
     const { name, phone, email, message } = contactForm;
-    const waPhone = "55699993807039";
+    const waPhone = "5569993807039";
 
     let text = `Olá! Vim pelo site. \n`;
     if (name) text += `*Nome*: ${name}\n`;
@@ -85,7 +85,7 @@ const App = () => {
 
   const handleWhatsAppRedirect = () => {
     const { name, date, time, phone, type, notes } = scheduleData; // added new fields
-    const waPhone = "55699993807039";
+    const waPhone = "5569993807039";
     let message = `Olá Dra. Nathália!`;
 
     if (name) message += ` Meu nome é *${name}*.`;
@@ -144,7 +144,7 @@ const App = () => {
 
       {/* WhatsApp Float Button - Standard Brand Style */}
       <a
-        href="https://wa.me/55699993807039"
+        href="https://wa.me/5569993807039"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20ba5a] text-white p-3 rounded-full shadow-[0_4px_12px_rgba(0,0,0,0.15)] hover:shadow-[0_6px_16px_rgba(0,0,0,0.2)] transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2 group"
@@ -162,13 +162,13 @@ const App = () => {
       >
         <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
           <div className="flex flex-col cursor-pointer group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <span className="text-xl md:text-2xl font-serif-display tracking-widest font-semibold text-stone-900 group-hover:text-stone-600 transition-colors">
+            <span className="text-base md:text-2xl font-serif-display tracking-widest font-semibold text-stone-900 group-hover:text-stone-600 transition-colors leading-tight">
               DRA. NATHÁLIA LIMA SOUZA
             </span>
             <div className="flex items-center gap-2">
               <span className="h-px w-8 bg-stone-400"></span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-stone-500 font-body font-medium">
-                CRM-RO 12072
+                CRM-PI 12072
               </span>
             </div>
           </div>
@@ -692,7 +692,7 @@ const App = () => {
                       <div className="bg-stone-800/80 backdrop-blur-sm p-3 rounded-full"><Phone size={20} className="text-stone-300" /></div>
                       <div>
                         <p className="text-xs uppercase text-stone-400 tracking-wider mb-1">Telefone / WhatsApp</p>
-                        <p className="text-lg font-medium">+55 (69) 99999-9999</p>
+                        <p className="text-lg font-medium">+55 (69) 99380-7039</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -714,7 +714,10 @@ const App = () => {
                 </div>
 
                 <div className="mt-12 flex gap-4">
-                  <a href="#" className="p-2 bg-stone-800/80 backdrop-blur-sm hover:bg-white hover:text-stone-900 transition-all rounded-full"><Instagram size={20} /></a>
+                  <a href="https://instagram.com/nathalima1" target="_blank" rel="noopener noreferrer" className="p-2 bg-stone-800/80 backdrop-blur-sm hover:bg-white hover:text-stone-900 transition-all rounded-full"><Instagram size={20} /></a>
+                  <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="p-2 bg-stone-800/80 backdrop-blur-sm hover:bg-white hover:text-stone-900 transition-all rounded-full">
+                    <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 17.785c-1.09.75-2.59 1.215-4.194 1.215-1.603 0-3.103-.465-4.193-1.215-.39-.268-.51-.8-.27-1.19.24-.39.77-.51 1.16-.27.81.558 1.99.905 3.303.905s2.493-.347 3.304-.905c.39-.24.92-.12 1.16.27.24.39.12.922-.27 1.19zm-.394-4.285c-.828 0-1.5-.672-1.5-1.5s.672-1.5 1.5-1.5 1.5.672 1.5 1.5-.672 1.5-1.5 1.5zm-11 0c-.828 0-1.5-.672-1.5-1.5s.672-1.5 1.5-1.5 1.5.672 1.5 1.5-.672 1.5-1.5 1.5zm5.5 0c-.828 0-1.5-.672-1.5-1.5s.672-1.5 1.5-1.5 1.5.672 1.5 1.5-.672 1.5-1.5 1.5z" /></svg>
+                  </a>
                   <a href="#" className="p-2 bg-stone-800/80 backdrop-blur-sm hover:bg-white hover:text-stone-900 transition-all rounded-full"><Linkedin size={20} /></a>
                 </div>
               </div>
@@ -787,7 +790,7 @@ const App = () => {
               Medicina integrativa com foco na prevenção e no cuidado humanizado. Sua saúde em primeiro lugar.
             </p>
             <div className="text-stone-600 text-xs uppercase tracking-wider">
-              CRM-RO 12072
+              CRM-PI 12072
             </div>
           </div>
 
