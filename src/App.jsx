@@ -819,10 +819,10 @@ const App = () => {
               >
                 <div className="h-48 bg-stone-200 relative overflow-hidden">
                   <div className={`absolute inset-0 bg-stone-300 flex items-center justify-center text-stone-400 group-hover:scale-105 transition-transform duration-700`}>
-                    <BookOpen size={40} className="text-stone-400/50" />
+                    <Monitor size={40} className="text-stone-400/50" />
                   </div>
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] uppercase tracking-wider font-semibold text-stone-700 flex items-center gap-2">
-                    <Calendar size={12} /> {article.date}
+                    <Clock size={12} /> {article.date}
                   </div>
                 </div>
                 <div className="p-8">
