@@ -13,6 +13,8 @@ const App = () => {
   const [currentDiffIndex, setCurrentDiffIndex] = useState(0);
   const [showWhatsAppPopup, setShowWhatsAppPopup] = useState(false);
   const [parallaxOffset, setParallaxOffset] = useState(0);
+  const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
+  const [selectedArticle, setSelectedArticle] = useState(null);
 
   // Scarcity Logic
   const getOccupancyPercentage = () => {
