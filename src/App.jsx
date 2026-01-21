@@ -122,7 +122,7 @@ const App = () => {
       content: "A Medicina Integrativa não descarta a medicina tradicional, mas a expande. Ao invés de apenas tratar o sintoma, buscamos a raiz do problema. Fatores como sono, estresse, alimentação e relacionamentos são tão importantes quanto exames laboratoriais. Neste artigo, exploramos como pequenas mudanças no estilo de vida, aliadas a um acompanhamento médico próximo, podem reverter quadros crônicos e devolver sua vitalidade.\n\nFocamos em: \n- Nutrição celular\n- Equilíbrio hormonal\n- Saúde mental\n- Prevenção ativa",
       date: "24 Jan 2025",
       readTime: "5 min",
-      image: "https://images.unsplash.com/photo-1544367563-121955377d0a?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 2,
@@ -131,7 +131,7 @@ const App = () => {
       content: "Muitas vezes normalizamos o cansaço ou a irritabilidade, culpando a rotina. Mas eles podem ser gritos de socorro do seu sistema endócrino. Desequilíbrios na tireoide, cortisol (estresse) ou hormônios sexuais afetam tudo, desde seu sono até seu peso. Uma avaliação hormonal completa vai muito além do TSH básico. Entenda os sinais e quando procurar ajuda.",
       date: "22 Jan 2025",
       readTime: "4 min",
-      image: "https://images.unsplash.com/photo-1579684385355-d3525f116568?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 3,
@@ -140,7 +140,7 @@ const App = () => {
       content: "Durante o sono, seu corpo produz citocinas, proteínas essenciais para combater infecções e inflamações. Dormir menos de 6h por noite consistentemente pode reduzir drasticamente sua resposta imune. Higiene do sono não é frescura: quarto escuro, evitar telas e horário regular são prescrições médicas tão importantes quanto vitaminas.",
       date: "20 Jan 2025",
       readTime: "6 min",
-      image: "https://images.unsplash.com/photo-1541781777759-aa8c4a770788?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1541480601022-2308c0f02487?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 4,
@@ -149,7 +149,7 @@ const App = () => {
       content: "A suplementação deve ser individualizada. O que funciona para seu vizinho pode ser tóxico para você. Através de exames detalhados, identificamos carências reais — seja Vitamina D, B12, Ferro ou Magnésio. A 'suplementação cega' raramente traz benefícios reais. Medicina de precisão repõe o que falta, na dose certa e na forma química que seu corpo absorve.",
       date: "18 Jan 2025",
       readTime: "5 min",
-      image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1584017445366-b46d03593a97?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 5,
@@ -158,7 +158,7 @@ const App = () => {
       content: "O estresse ativa o modo 'luta ou fuga', liberando cortisol e adrenalina. Isso é ótimo para fugir de um leão, mas terrível quando dura meses (boletos, trânsito, trabalho). O cortisol alto aumenta a glicose no sangue, a pressão arterial e a gordura visceral. Gerenciar o estresse não é apenas 'relaxar', é uma estratégia vital de proteção cardiovascular e metabólica.",
       date: "15 Jan 2025",
       readTime: "7 min",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1474447976863-67d19ae27d42?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 6,
@@ -167,7 +167,7 @@ const App = () => {
       content: "Você sabia que 90% da serotonina (hormônio da felicidade) é produzida no intestino? Uma disbiose intestinal pode ser a causa oculta de depressão, ansiedade, alergias e fadiga. Alimentos ultraprocessados destroem sua flora boa. Probióticos, prebióticos e comida de verdade são a base para recuperar esse ecossistema vital.",
       date: "12 Jan 2025",
       readTime: "5 min",
-      image: "https://images.unsplash.com/photo-1513227658705-cb67035f524d?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 7,
@@ -176,7 +176,7 @@ const App = () => {
       content: "Um bom check-up vai além de hemograma e glicose. Precisamos olhar marcadores inflamatórios (PCR, Homocisteína), perfil lipídico avançado, função hepática e renal, e vitaminas. A prevenção real detecta tendências anos antes da doença se instalar. É sobre otimizar a saúde, não apenas caçar doenças.",
       date: "10 Jan 2025",
       readTime: "4 min",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1579154273821-0a6723b8233e?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 8,
@@ -185,7 +185,7 @@ const App = () => {
       content: "Se o exercício fosse um remédio encapsulado, seria o mais vendido do mundo. Ele reduz resistência insulínica, melhora a circulação, libera endorfinas e cria novos neurônios (neurogênese). A melhor atividade física é aquela que você faz consistentemente. Musculação, em especial, é crucial para longevidade, protegendo ossos e metabolismo.",
       date: "08 Jan 2025",
       readTime: "6 min",
-      image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 9,
@@ -194,7 +194,7 @@ const App = () => {
       content: "A queda hormonal não é uma sentença de sofrimento. A reposição hormonal, quando bem indicada e via transdérmica (gel), é segura e traz benefícios cardiovasculares e ósseos, além de devolver qualidade de vida, sono e libido. Cada mulher é única e merece um tratamento desenhado para seus riscos e benefícios individuais.",
       date: "05 Jan 2025",
       readTime: "5 min",
-      image: "https://images.unsplash.com/photo-1581578014436-11b068593836?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1559734840-f9509ee5670f?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: 10,
@@ -203,7 +203,7 @@ const App = () => {
       content: "Seu fígado já faz detox 24h por dia. O 'suco detox' não anula uma semana de má alimentação. O verdadeiro suporte à desintoxicação envolve dar ao fígado os nutrientes que ele precisa (complexo B, aminoácidos, antioxidantes) e, principalmente, parar de sobrecarregá-lo com álcool, açúcar e toxinas ambientais. É sobre reduzir a carga tóxica total.",
       date: "02 Jan 2025",
       readTime: "4 min",
-      image: "https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1610970881699-44a5587cabec?q=80&w=800&auto=format&fit=crop"
     },
   ];
 
