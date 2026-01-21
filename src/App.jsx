@@ -63,6 +63,137 @@ const App = () => {
     }
   ];
 
+  const testimonials = [
+    {
+      name: "Mariana S.",
+      role: "Paciente de Check-up",
+      text: "Pela primeira vez senti que uma médica realmente me ouviu. A Dra. Nathália não olhou apenas meus exames, mas entendeu minha rotina. O tratamento fez sentido e mudou minha disposição."
+    },
+    {
+      name: "Carlos Eduardo",
+      role: "Telemedicina",
+      text: "Estava receoso com consulta online, mas foi impecável. A atenção aos detalhes e a facilidade de receber a receita no celular foram incríveis. Recomendo para todos."
+    },
+    {
+      name: "Fernanda L.",
+      role: "Saúde da Mulher",
+      text: "O ambiente acolhedor e a calma da Dra. fazem toda diferença. Não é aquela consulta corrida de 15 minutos. É medicina de verdade, com tempo e carinho."
+    },
+    {
+      name: "Ricardo M.",
+      role: "Controle de Hipertensão",
+      text: "Dra. Nathália ajustou minha medicação de um jeito que nenhum outro conseguiu. Minha pressão estabilizou e me sinto muito mais disposto no dia a dia."
+    },
+    {
+      name: "Juliana P.",
+      role: "Saúde Preventiva",
+      text: "Fiz meu check-up anual e fiquei impressionada com a clareza das explicações. Ela desenhou um plano de prevenção que realmente consigo seguir."
+    },
+    {
+      name: "Antônio C.",
+      role: "Diabetes",
+      text: "Atendimento humano de verdade. Ela se preocupa se estou conseguindo seguir a dieta e os remédios. Me sinto cuidado e não apenas mais um número."
+    },
+    {
+      name: "Beatriz O.",
+      role: "Telemedicina",
+      text: "Moro no interior e ter acesso a uma médica desse nível pela internet foi uma bênção. A consulta foi detalhada e me senti muito segura."
+    },
+    {
+      name: "Lucas G.",
+      role: "Rotina e Performance",
+      text: "Busquei ajuda para melhorar meu sono e energia. A abordagem integrativa dela foi perfeita. Ajustamos vitaminas e hábitos e o resultado foi rápido."
+    },
+    {
+      name: "Sônia R.",
+      role: "Geriatria / Idosos",
+      text: "Levamos minha mãe e o carinho que a Dra. teve foi emocionante. Paciência para ouvir e explicar tudo com calma. Profissional rara hoje em dia."
+    }
+  ];
+
+  const blogArticles = [
+    {
+      id: 1,
+      title: "Por que a Medicina Integrativa é o Futuro?",
+      excerpt: "Entenda como olhar o paciente como um todo, unindo corpo e mente, previne doenças e promove uma longevidade saudável.",
+      content: "A Medicina Integrativa não descarta a medicina tradicional, mas a expande. Ao invés de apenas tratar o sintoma, buscamos a raiz do problema. Fatores como sono, estresse, alimentação e relacionamentos são tão importantes quanto exames laboratoriais. Neste artigo, exploramos como pequenas mudanças no estilo de vida, aliadas a um acompanhamento médico próximo, podem reverter quadros crônicos e devolver sua vitalidade.\n\nFocamos em: \n- Nutrição celular\n- Equilíbrio hormonal\n- Saúde mental\n- Prevenção ativa",
+      date: "15 Jan 2025",
+      readTime: "5 min"
+    },
+    {
+      id: 2,
+      title: "Sinais de que seus Hormônios podem estar Desregulados",
+      excerpt: "Cansaço excessivo, queda de cabelo e alterações de humor não são 'normais'. Saiba identificar os alertas do seu corpo.",
+      content: "Muitas vezes normalizamos o cansaço ou a irritabilidade, culpando a rotina. Mas eles podem ser gritos de socorro do seu sistema endócrino. Desequilíbrios na tireoide, cortisol (estresse) ou hormônios sexuais afetam tudo, desde seu sono até seu peso. Uma avaliação hormonal completa vai muito além do TSH básico. Entenda os sinais e quando procurar ajuda.",
+      date: "10 Jan 2025",
+      readTime: "4 min"
+    },
+    {
+      id: 3,
+      title: "A Importância do Sono na Imunidade",
+      excerpt: "Dormir bem não é luxo, é necessidade biológica. Descubra como o sono repara seu corpo e fortalece suas defesas.",
+      content: "Durante o sono, seu corpo produz citocinas, proteínas essenciais para combater infecções e inflamações. Dormir menos de 6h por noite consistentemente pode reduzir drasticamente sua resposta imune. Higiene do sono não é frescura: quarto escuro, evitar telas e horário regular são prescrições médicas tão importantes quanto vitaminas.",
+      date: "05 Jan 2025",
+      readTime: "6 min"
+    },
+    {
+      id: 4,
+      title: "Suplementação: Quando é realmente necessária?",
+      excerpt: "Vitaminas de A a Z funcionam? Entenda a diferença entre suplementar com precisão e desperdiçar dinheiro.",
+      content: "A suplementação deve ser individualizada. O que funciona para seu vizinho pode ser tóxico para você. Através de exames detalhados, identificamos carências reais — seja Vitamina D, B12, Ferro ou Magnésio. A 'suplementação cega' raramente traz benefícios reais. Medicina de precisão repõe o que falta, na dose certa e na forma química que seu corpo absorve.",
+      date: "28 Dez 2024",
+      readTime: "5 min"
+    },
+    {
+      id: 5,
+      title: "Estresse e Doenças Crônicas: O Elo Invisível",
+      excerpt: "Como o cortisol elevado cronicamente pode ser o gatilho para diabetes, hipertensão e problemas cardíacos.",
+      content: "O estresse ativa o modo 'luta ou fuga', liberando cortisol e adrenalina. Isso é ótimo para fugir de um leão, mas terrível quando dura meses (boletos, trânsito, trabalho). O cortisol alto aumenta a glicose no sangue, a pressão arterial e a gordura visceral. Gerenciar o estresse não é apenas 'relaxar', é uma estratégia vital de proteção cardiovascular e metabólica.",
+      date: "20 Dez 2024",
+      readTime: "7 min"
+    },
+    {
+      id: 6,
+      title: "Saúde Intestinal: O Segundo Cérebro",
+      excerpt: "Sua microbiota influencia seu humor, imunidade e até seu peso. Como cuidar das bactérias que vivem em você.",
+      content: "Você sabia que 90% da serotonina (hormônio da felicidade) é produzida no intestino? Uma disbiose intestinal pode ser a causa oculta de depressão, ansiedade, alergias e fadiga. Alimentos ultraprocessados destroem sua flora boa. Probióticos, prebióticos e comida de verdade são a base para recuperar esse ecossistema vital.",
+      date: "15 Dez 2024",
+      readTime: "5 min"
+    },
+    {
+      id: 7,
+      title: "Check-up Médico: O que não pode faltar?",
+      excerpt: "Ir ao médico apenas quando adoece é um erro. O check-up preventivo é a chave para a longevidade.",
+      content: "Um bom check-up vai além de hemograma e glicose. Precisamos olhar marcadores inflamatórios (PCR, Homocisteína), perfil lipídico avançado, função hepática e renal, e vitaminas. A prevenção real detecta tendências anos antes da doença se instalar. É sobre otimizar a saúde, não apenas caçar doenças.",
+      date: "10 Dez 2024",
+      readTime: "4 min"
+    },
+    {
+      id: 8,
+      title: "Atividade Física como Medicamento",
+      excerpt: "Exercício não é apenas estética. É a polipílula mais poderosa que existe para o cérebro e coração.",
+      content: "Se o exercício fosse um remédio encapsulado, seria o mais vendido do mundo. Ele reduz resistência insulínica, melhora a circulação, libera endorfinas e cria novos neurônios (neurogênese). A melhor atividade física é aquela que você faz consistentemente. Musculação, em especial, é crucial para longevidade, protegendo ossos e metabolismo.",
+      date: "01 Dez 2024",
+      readTime: "6 min"
+    },
+    {
+      id: 9,
+      title: "Menopausa e Climatério com Qualidade de Vida",
+      excerpt: "Não é preciso sofrer com calores e insônia. Existem tratamentos seguros para atravessar essa fase com plenitude.",
+      content: "A queda hormonal não é uma sentença de sofrimento. A reposição hormonal, quando bem indicada e via transdérmica (gel), é segura e traz benefícios cardiovasculares e ósseos, além de devolver qualidade de vida, sono e libido. Cada mulher é única e merece um tratamento desenhado para seus riscos e benefícios individuais.",
+      date: "25 Nov 2024",
+      readTime: "5 min"
+    },
+    {
+      id: 10,
+      title: "Detox: Mito ou Verdade?",
+      excerpt: "Sucos verdes fazem milagre? Entenda como realmente apoiar as vias de desintoxicação do seu fígado.",
+      content: "Seu fígado já faz detox 24h por dia. O 'suco detox' não anula uma semana de má alimentação. O verdadeiro suporte à desintoxicação envolve dar ao fígado os nutrientes que ele precisa (complexo B, aminoácidos, antioxidantes) e, principalmente, parar de sobrecarregá-lo com álcool, açúcar e toxinas ambientais. É sobre reduzir a carga tóxica total.",
+      date: "20 Nov 2024",
+      readTime: "4 min"
+    },
+  ];
+
   // Contact Form State
   const [contactForm, setContactForm] = useState({
     name: '',
@@ -144,6 +275,22 @@ const App = () => {
     window.addEventListener('scroll', handleParallax);
     return () => window.removeEventListener('scroll', handleParallax);
   }, []);
+
+  // Testimonial Carousel Auto-Play
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTestimonialIndex((prev) => (prev + 1) % testimonials.length);
+    }, 6000);
+    return () => clearInterval(interval);
+  }, [testimonials.length]);
+
+  const nextTestimonial = () => {
+    setCurrentTestimonialIndex((prev) => (prev + 1) % testimonials.length);
+  };
+
+  const prevTestimonial = () => {
+    setCurrentTestimonialIndex((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));
+  };
 
   // WhatsApp Popup Timer
   useEffect(() => {
@@ -593,40 +740,101 @@ const App = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-24 bg-stone-50 border-b border-stone-200">
+      {/* Testimonials Section - Carousel */}
+      <section className="py-24 bg-stone-50 border-b border-stone-200 overflow-hidden">
         <div className="container mx-auto px-6 md:px-12">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 reveal">
             <span className="text-stone-500 text-xs uppercase tracking-[0.2em]">Depoimentos</span>
             <h2 className="font-serif-display text-4xl text-stone-900 mt-2">Histórias Reais</h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {[
-              {
-                name: "Mariana S.",
-                role: "Paciente de Check-up",
-                text: "Pela primeira vez senti que uma médica realmente me ouviu. A Dra. Nathália não olhou apenas meus exames, mas entendeu minha rotina. O tratamento fez sentido e mudou minha disposição."
-              },
-              {
-                name: "Carlos Eduardo",
-                role: "Telemedicina",
-                text: "Estava receoso com consulta online, mas foi impecável. A atenção aos detalhes e a facilidade de receber a receita no celular foram incríveis. Recomendo para todos."
-              },
-              {
-                name: "Fernanda L.",
-                role: "Saúde da Mulher",
-                text: "O ambiente acolhedor e a calma da Dra. fazem toda diferença. Não é aquela consulta corrida de 15 minutos. É medicina de verdade, com tempo e carinho."
-              }
-            ].map((t, i) => (
-              <div key={i} className="bg-white p-8 shadow-lg shadow-stone-200/50 rounded-2xl relative hover:-translate-y-1 transition-all">
-                <div className="text-yellow-400 flex gap-1 mb-4">
-                  {[1, 2, 3, 4, 5].map(s => <Star key={s} size={14} fill="currentColor" />)}
+          <div className="max-w-4xl mx-auto relative reveal reveal-delay-2">
+            <div className="overflow-hidden p-4">
+              <div
+                className="flex transition-transform duration-700 ease-in-out"
+                style={{ transform: `translateX(-${currentTestimonialIndex * 100}%)` }}
+              >
+                {testimonials.map((t, i) => (
+                  <div key={i} className="w-full flex-shrink-0 px-4">
+                    <div className="bg-white p-10 md:p-14 shadow-xl shadow-stone-200/60 rounded-3xl relative text-center">
+                      <div className="text-yellow-400 flex justify-center gap-1 mb-6">
+                        {[1, 2, 3, 4, 5].map(s => <Star key={s} size={18} fill="currentColor" />)}
+                      </div>
+                      <p className="text-stone-600 font-light italic text-lg md:text-xl mb-8 leading-relaxed font-serif-display">"{t.text}"</p>
+                      <div>
+                        <p className="font-bold text-stone-900 text-base">{t.name}</p>
+                        <p className="text-stone-400 text-xs uppercase tracking-wider mt-1">{t.role}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Carousel Controls */}
+            <button
+              onClick={prevTestimonial}
+              className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 md:-ml-12 bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform text-stone-600 hover:text-stone-900 z-10 hidden md:block"
+            >
+              <ChevronLeft size={24} />
+            </button>
+            <button
+              onClick={nextTestimonial}
+              className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 md:-mr-12 bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform text-stone-600 hover:text-stone-900 z-10 hidden md:block"
+            >
+              <ChevronRight size={24} />
+            </button>
+
+            {/* Pagination Dots */}
+            <div className="flex justify-center gap-2 mt-8">
+              {testimonials.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setCurrentTestimonialIndex(i)}
+                  className={`w-2 h-2 rounded-full transition-all duration-300 ${i === currentTestimonialIndex ? 'bg-stone-800 w-6' : 'bg-stone-300'}`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Section */}
+      <section id="blog" className="py-24 bg-white relative">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 reveal">
+            <div>
+              <span className="text-stone-500 text-xs uppercase tracking-[0.2em]">Blog & Artigos</span>
+              <h2 className="font-serif-display text-4xl text-stone-900 mt-2">Conteúdo para sua Saúde</h2>
+            </div>
+            <div className="hidden md:block w-32 h-px bg-stone-200 mb-4"></div>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {blogArticles.map((article, i) => (
+              <div
+                key={article.id}
+                className={`bg-stone-50 rounded-xl overflow-hidden group cursor-pointer hover:shadow-xl hover:shadow-stone-200/50 transition-all duration-300 border border-stone-100 reveal reveal-delay-${(i % 3) + 1}`}
+                onClick={() => setSelectedArticle(article)}
+              >
+                <div className="h-48 bg-stone-200 relative overflow-hidden">
+                  <div className={`absolute inset-0 bg-stone-300 flex items-center justify-center text-stone-400 group-hover:scale-105 transition-transform duration-700`}>
+                    <BookOpen size={40} className="text-stone-400/50" />
+                  </div>
+                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] uppercase tracking-wider font-semibold text-stone-700 flex items-center gap-2">
+                    <Calendar size={12} /> {article.date}
+                  </div>
                 </div>
-                <p className="text-stone-600 font-light italic mb-6 leading-relaxed">"{t.text}"</p>
-                <div>
-                  <p className="font-serif-display text-stone-900 text-lg">{t.name}</p>
-                  <p className="text-stone-400 text-xs uppercase tracking-wider">{t.role}</p>
+                <div className="p-8">
+                  <h3 className="font-serif-display text-xl text-stone-900 mb-3 leading-tight group-hover:text-stone-600 transition-colors">
+                    {article.title}
+                  </h3>
+                  <p className="text-stone-600 font-light text-sm line-clamp-3 mb-6 leading-relaxed">
+                    {article.excerpt}
+                  </p>
+                  <div className="flex items-center gap-2 text-stone-800 text-xs font-semibold uppercase tracking-widest group-hover:gap-3 transition-all">
+                    Ler Artigo <ArrowRight size={14} />
+                  </div>
                 </div>
               </div>
             ))}
@@ -804,6 +1012,37 @@ const App = () => {
           </div>
         </div>
       </section>
+
+      {/* Blog Article Modal */}
+      {selectedArticle && (
+        <div className="fixed inset-0 bg-stone-900/80 z-50 flex items-center justify-center p-4 animate-in fade-in backdrop-blur-sm">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto animate-in zoom-in-95 duration-300 relative">
+            <button
+              onClick={() => setSelectedArticle(null)}
+              className="absolute top-4 right-4 bg-stone-100 p-2 rounded-full hover:bg-stone-200 transition-colors z-10"
+            >
+              <X size={20} />
+            </button>
+            <div className="p-8 md:p-12">
+              <span className="text-stone-500 text-xs uppercase tracking-widest mb-2 block">{selectedArticle.date} • {selectedArticle.readTime} de leitura</span>
+              <h2 className="font-serif-display text-3xl md:text-4xl text-stone-900 mb-6 leading-tight">{selectedArticle.title}</h2>
+              <div className="w-12 h-1 bg-stone-200 mb-8"></div>
+              <div className="prose prose-stone prose-lg text-stone-600 font-light leading-relaxed whitespace-pre-line">
+                {selectedArticle.content}
+              </div>
+              <div className="mt-12 pt-8 border-t border-stone-100 flex justify-between items-center">
+                <span className="font-serif-display italic text-stone-800">Dra. Nathália Lima Souza</span>
+                <button
+                  onClick={() => setIsSchedulingOpen(true)}
+                  className="bg-stone-900 text-white px-6 py-3 rounded-lg text-sm uppercase tracking-wider hover:bg-stone-800 transition-colors"
+                >
+                  Agendar Consulta
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Footer */}
       <footer className="bg-stone-950 text-stone-400 py-16 font-body text-sm">
