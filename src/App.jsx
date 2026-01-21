@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 
 const App = () => {
+  // Last deployed: 2026-01-21 12:40 (Force Rebuild)
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(null);
