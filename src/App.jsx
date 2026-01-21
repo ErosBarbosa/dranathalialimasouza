@@ -120,80 +120,90 @@ const App = () => {
       title: "Por que a Medicina Integrativa é o Futuro?",
       excerpt: "Entenda como olhar o paciente como um todo, unindo corpo e mente, previne doenças e promove uma longevidade saudável.",
       content: "A Medicina Integrativa não descarta a medicina tradicional, mas a expande. Ao invés de apenas tratar o sintoma, buscamos a raiz do problema. Fatores como sono, estresse, alimentação e relacionamentos são tão importantes quanto exames laboratoriais. Neste artigo, exploramos como pequenas mudanças no estilo de vida, aliadas a um acompanhamento médico próximo, podem reverter quadros crônicos e devolver sua vitalidade.\n\nFocamos em: \n- Nutrição celular\n- Equilíbrio hormonal\n- Saúde mental\n- Prevenção ativa",
-      date: "15 Jan 2025",
-      readTime: "5 min"
+      date: "24 Jan 2025",
+      readTime: "5 min",
+      image: "https://images.unsplash.com/photo-1544367563-121955377d0a?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 2,
       title: "Sinais de que seus Hormônios podem estar Desregulados",
       excerpt: "Cansaço excessivo, queda de cabelo e alterações de humor não são 'normais'. Saiba identificar os alertas do seu corpo.",
       content: "Muitas vezes normalizamos o cansaço ou a irritabilidade, culpando a rotina. Mas eles podem ser gritos de socorro do seu sistema endócrino. Desequilíbrios na tireoide, cortisol (estresse) ou hormônios sexuais afetam tudo, desde seu sono até seu peso. Uma avaliação hormonal completa vai muito além do TSH básico. Entenda os sinais e quando procurar ajuda.",
-      date: "10 Jan 2025",
-      readTime: "4 min"
+      date: "22 Jan 2025",
+      readTime: "4 min",
+      image: "https://images.unsplash.com/photo-1579684385355-d3525f116568?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 3,
       title: "A Importância do Sono na Imunidade",
       excerpt: "Dormir bem não é luxo, é necessidade biológica. Descubra como o sono repara seu corpo e fortalece suas defesas.",
       content: "Durante o sono, seu corpo produz citocinas, proteínas essenciais para combater infecções e inflamações. Dormir menos de 6h por noite consistentemente pode reduzir drasticamente sua resposta imune. Higiene do sono não é frescura: quarto escuro, evitar telas e horário regular são prescrições médicas tão importantes quanto vitaminas.",
-      date: "05 Jan 2025",
-      readTime: "6 min"
+      date: "20 Jan 2025",
+      readTime: "6 min",
+      image: "https://images.unsplash.com/photo-1541781777759-aa8c4a770788?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 4,
       title: "Suplementação: Quando é realmente necessária?",
       excerpt: "Vitaminas de A a Z funcionam? Entenda a diferença entre suplementar com precisão e desperdiçar dinheiro.",
       content: "A suplementação deve ser individualizada. O que funciona para seu vizinho pode ser tóxico para você. Através de exames detalhados, identificamos carências reais — seja Vitamina D, B12, Ferro ou Magnésio. A 'suplementação cega' raramente traz benefícios reais. Medicina de precisão repõe o que falta, na dose certa e na forma química que seu corpo absorve.",
-      date: "28 Dez 2024",
-      readTime: "5 min"
+      date: "18 Jan 2025",
+      readTime: "5 min",
+      image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 5,
       title: "Estresse e Doenças Crônicas: O Elo Invisível",
       excerpt: "Como o cortisol elevado cronicamente pode ser o gatilho para diabetes, hipertensão e problemas cardíacos.",
       content: "O estresse ativa o modo 'luta ou fuga', liberando cortisol e adrenalina. Isso é ótimo para fugir de um leão, mas terrível quando dura meses (boletos, trânsito, trabalho). O cortisol alto aumenta a glicose no sangue, a pressão arterial e a gordura visceral. Gerenciar o estresse não é apenas 'relaxar', é uma estratégia vital de proteção cardiovascular e metabólica.",
-      date: "20 Dez 2024",
-      readTime: "7 min"
+      date: "15 Jan 2025",
+      readTime: "7 min",
+      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 6,
       title: "Saúde Intestinal: O Segundo Cérebro",
       excerpt: "Sua microbiota influencia seu humor, imunidade e até seu peso. Como cuidar das bactérias que vivem em você.",
       content: "Você sabia que 90% da serotonina (hormônio da felicidade) é produzida no intestino? Uma disbiose intestinal pode ser a causa oculta de depressão, ansiedade, alergias e fadiga. Alimentos ultraprocessados destroem sua flora boa. Probióticos, prebióticos e comida de verdade são a base para recuperar esse ecossistema vital.",
-      date: "15 Dez 2024",
-      readTime: "5 min"
+      date: "12 Jan 2025",
+      readTime: "5 min",
+      image: "https://images.unsplash.com/photo-1513227658705-cb67035f524d?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 7,
       title: "Check-up Médico: O que não pode faltar?",
       excerpt: "Ir ao médico apenas quando adoece é um erro. O check-up preventivo é a chave para a longevidade.",
       content: "Um bom check-up vai além de hemograma e glicose. Precisamos olhar marcadores inflamatórios (PCR, Homocisteína), perfil lipídico avançado, função hepática e renal, e vitaminas. A prevenção real detecta tendências anos antes da doença se instalar. É sobre otimizar a saúde, não apenas caçar doenças.",
-      date: "10 Dez 2024",
-      readTime: "4 min"
+      date: "10 Jan 2025",
+      readTime: "4 min",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 8,
       title: "Atividade Física como Medicamento",
       excerpt: "Exercício não é apenas estética. É a polipílula mais poderosa que existe para o cérebro e coração.",
       content: "Se o exercício fosse um remédio encapsulado, seria o mais vendido do mundo. Ele reduz resistência insulínica, melhora a circulação, libera endorfinas e cria novos neurônios (neurogênese). A melhor atividade física é aquela que você faz consistentemente. Musculação, em especial, é crucial para longevidade, protegendo ossos e metabolismo.",
-      date: "01 Dez 2024",
-      readTime: "6 min"
+      date: "08 Jan 2025",
+      readTime: "6 min",
+      image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 9,
       title: "Menopausa e Climatério com Qualidade de Vida",
       excerpt: "Não é preciso sofrer com calores e insônia. Existem tratamentos seguros para atravessar essa fase com plenitude.",
       content: "A queda hormonal não é uma sentença de sofrimento. A reposição hormonal, quando bem indicada e via transdérmica (gel), é segura e traz benefícios cardiovasculares e ósseos, além de devolver qualidade de vida, sono e libido. Cada mulher é única e merece um tratamento desenhado para seus riscos e benefícios individuais.",
-      date: "25 Nov 2024",
-      readTime: "5 min"
+      date: "05 Jan 2025",
+      readTime: "5 min",
+      image: "https://images.unsplash.com/photo-1581578014436-11b068593836?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 10,
       title: "Detox: Mito ou Verdade?",
       excerpt: "Sucos verdes fazem milagre? Entenda como realmente apoiar as vias de desintoxicação do seu fígado.",
       content: "Seu fígado já faz detox 24h por dia. O 'suco detox' não anula uma semana de má alimentação. O verdadeiro suporte à desintoxicação envolve dar ao fígado os nutrientes que ele precisa (complexo B, aminoácidos, antioxidantes) e, principalmente, parar de sobrecarregá-lo com álcool, açúcar e toxinas ambientais. É sobre reduzir a carga tóxica total.",
-      date: "20 Nov 2024",
-      readTime: "4 min"
+      date: "02 Jan 2025",
+      readTime: "4 min",
+      image: "https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?auto=format&fit=crop&w=800&q=80"
     },
   ];
 
@@ -821,9 +831,12 @@ const App = () => {
                 onClick={() => setSelectedArticle(article)}
               >
                 <div className="h-48 bg-stone-200 relative overflow-hidden">
-                  <div className={`absolute inset-0 bg-stone-300 flex items-center justify-center text-stone-400 group-hover:scale-105 transition-transform duration-700`}>
-                    <Monitor size={40} className="text-stone-400/50" />
-                  </div>
+                  <img
+                    src={article.image}
+                    alt={article.title}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-stone-900/10 group-hover:bg-stone-900/0 transition-colors duration-500"></div>
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] uppercase tracking-wider font-semibold text-stone-700 flex items-center gap-2">
                     <Clock size={12} /> {article.date}
                   </div>
